@@ -1,0 +1,2866 @@
+{
+    "data": [
+        {
+            "teamId": 10642,
+            "teamName": "All_Dev",
+            "teamMembers": [
+                {
+                    "developerId": 2974654,
+                    "email": "priyanka.kataria@natwest.com",
+                    "firstName": "Priyanka",
+                    "lastName": "Kataria",
+                    "predictedRole": "UI Dev.",
+                    "tenure": 975,
+                    "uid": "8052276.0",
+                    "consolidatedLogins": [
+                        "katarp",
+                        "priyanka.kataria@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2199372,
+                            "lastActivity": "2026-01-30"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2975936,
+                    "email": "sanjay.upadhyay@coutts.com",
+                    "firstName": "Sanjay",
+                    "lastName": "Upadhyay",
+                    "predictedRole": "DevOps / System Admin",
+                    "tenure": 1524,
+                    "uid": "8149771.0",
+                    "consolidatedLogins": [
+                        "sanjay.upadhyay@coutts.com",
+                        "upadhsp"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978942,
+                            "lastActivity": "2026-01-26"
+                        },
+                        {
+                            "datasourceId": 1978963,
+                            "lastActivity": "2026-01-23"
+                        },
+                        {
+                            "datasourceId": 1978969,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 1978980,
+                            "lastActivity": "2026-01-16"
+                        },
+                        {
+                            "datasourceId": 1978983,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 1978990,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 1979069,
+                            "lastActivity": "2026-01-16"
+                        },
+                        {
+                            "datasourceId": 2095208,
+                            "lastActivity": "2026-01-16"
+                        },
+                        {
+                            "datasourceId": 2097334,
+                            "lastActivity": "2026-01-26"
+                        },
+                        {
+                            "datasourceId": 2097335,
+                            "lastActivity": "2026-01-26"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2976054,
+                    "email": "jitendra.prasad@natwest.com",
+                    "firstName": "Jitendra",
+                    "lastName": "Maurya",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 820,
+                    "uid": "8193974.0",
+                    "consolidatedLogins": [
+                        "jitendra",
+                        "jitendra.prasad@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978986,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 1979102,
+                            "lastActivity": "2026-01-16"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2976074,
+                    "email": "swathy.raghu@natwest.com",
+                    "firstName": "Swathy",
+                    "lastName": "Raghu",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 1137,
+                    "uid": "8162919.0",
+                    "consolidatedLogins": [
+                        "raghusf",
+                        "swathy.raghu@natwest.com"
+                    ],
+                    "repositoryDetails": [],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2976893,
+                    "email": "deepak.bhalla@natwest.com",
+                    "firstName": "Deepak",
+                    "lastName": "Bhalla",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 685,
+                    "uid": "8197289.0",
+                    "consolidatedLogins": [
+                        "deepak.bhalla",
+                        "deepak.bhalla@natwest.com"
+                    ],
+                    "repositoryDetails": [],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2977595,
+                    "email": "abhinav.vashist@natwest.com",
+                    "firstName": "Abhinav",
+                    "lastName": "Vashist",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 1816,
+                    "uid": "8154281.0",
+                    "consolidatedLogins": [
+                        "abhinav.vashist@natwest.com",
+                        "vashiag"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978732,
+                            "lastActivity": "2026-01-28"
+                        },
+                        {
+                            "datasourceId": 1978961,
+                            "lastActivity": "2026-01-27"
+                        },
+                        {
+                            "datasourceId": 1978964,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 1978965,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 1978984,
+                            "lastActivity": "2026-01-21"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2978582,
+                    "email": "thandaram.belbase@natwest.com",
+                    "firstName": "Thandaram Belbase",
+                    "lastName": "Belbase",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 936,
+                    "uid": "8186947",
+                    "consolidatedLogins": [
+                        "thandaram.belbase@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978984,
+                            "lastActivity": "2026-01-20"
+                        },
+                        {
+                            "datasourceId": 1978986,
+                            "lastActivity": "2026-01-21"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2979265,
+                    "email": "bhavesharamkrishna.thaware@natwest.com",
+                    "firstName": "Bhavesha",
+                    "lastName": "Thaware",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 752,
+                    "uid": "8194093.0",
+                    "consolidatedLogins": [
+                        "bhavesharamkrishna.thaware",
+                        "bhavesharamkrishna.thaware@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978727,
+                            "lastActivity": "2026-01-30"
+                        },
+                        {
+                            "datasourceId": 1978963,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 1978964,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 1978965,
+                            "lastActivity": "2026-01-21"
+                        },
+                        {
+                            "datasourceId": 1978988,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 1978990,
+                            "lastActivity": "2026-02-02"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2979266,
+                    "email": "chitrankshi.rathour@natwest.com",
+                    "firstName": "Chitrankshi",
+                    "lastName": "Rathour",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 802,
+                    "uid": "8194364.0",
+                    "consolidatedLogins": [
+                        "chitrankshi.rathour",
+                        "chitrankshi.rathour@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978721,
+                            "lastActivity": "2026-02-02"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2979778,
+                    "email": "anuradha.dubey@coutts.com",
+                    "firstName": "Anuradha",
+                    "lastName": "Dubey",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 1571,
+                    "uid": "8146664.0",
+                    "consolidatedLogins": [
+                        "anuradha.dubey@coutts.com",
+                        "dubeyal"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2199363,
+                            "lastActivity": "2026-01-28"
+                        },
+                        {
+                            "datasourceId": 2331258,
+                            "lastActivity": "2026-01-29"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2979989,
+                    "email": "stanislaw.balczukiewicz@coutts.com",
+                    "firstName": "Stanislaw",
+                    "lastName": "Balczukiewicz",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 787,
+                    "uid": "8198487.0",
+                    "consolidatedLogins": [
+                        "stanislaw@backbase.com",
+                        "stanislaw.balczukiewicz",
+                        "stanislaw.balczukiewicz@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978964,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 1978966,
+                            "lastActivity": "2026-01-05"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2979990,
+                    "email": "benceferenc.buth@natwest.com",
+                    "firstName": "Bence",
+                    "lastName": "Buth",
+                    "predictedRole": "UI Dev.",
+                    "tenure": 828,
+                    "uid": "8187631.0",
+                    "consolidatedLogins": [
+                        "benceferenc.buth",
+                        "benceferenc.buth@natwest.com"
+                    ],
+                    "repositoryDetails": [],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2979992,
+                    "email": "dawid.weglinski@coutts.com",
+                    "firstName": "Dawid",
+                    "lastName": "Weglinski",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 1664,
+                    "uid": "8191456.0",
+                    "consolidatedLogins": [
+                        "dawid@backbase.com",
+                        "dawid.weglinski",
+                        "dawid.weglinski@coutts.com"
+                    ],
+                    "repositoryDetails": [],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2979993,
+                    "email": "saurav.grover@coutts.com",
+                    "firstName": "Saurav",
+                    "lastName": "Grover",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 1120,
+                    "uid": "8154776.0",
+                    "consolidatedLogins": [
+                        "saurav.grover",
+                        "saurav.grover@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2199366,
+                            "lastActivity": "2026-01-26"
+                        },
+                        {
+                            "datasourceId": 2199397,
+                            "lastActivity": "2026-01-28"
+                        },
+                        {
+                            "datasourceId": 2212709,
+                            "lastActivity": "2026-01-27"
+                        },
+                        {
+                            "datasourceId": 2212710,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2370940,
+                            "lastActivity": "2026-02-02"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2979995,
+                    "email": "abhishek.kumar@coutts.com",
+                    "firstName": "Abhishek",
+                    "lastName": "Kumar",
+                    "predictedRole": "UI Dev.",
+                    "tenure": 1628,
+                    "uid": "8141667.0",
+                    "consolidatedLogins": [
+                        "abhishek.kumar@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978724,
+                            "lastActivity": "2026-02-02"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2979997,
+                    "email": "jatin.dora@natwest.com",
+                    "firstName": "Jatin",
+                    "lastName": "Dora",
+                    "predictedRole": "UI Dev.",
+                    "tenure": 839,
+                    "uid": "8194834.0",
+                    "consolidatedLogins": [
+                        "jatin.dora",
+                        "jatin.dora@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978723,
+                            "lastActivity": "2026-01-22"
+                        },
+                        {
+                            "datasourceId": 1978724,
+                            "lastActivity": "2026-02-02"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2979998,
+                    "email": "sharanpreet.kaur@natwest.com",
+                    "firstName": "Sharanpreet",
+                    "lastName": "Kaur",
+                    "predictedRole": "UI Dev.",
+                    "tenure": 736,
+                    "uid": "8199175.0",
+                    "consolidatedLogins": [
+                        "sharanpreet.kaur",
+                        "sharanpreet.kaur@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978724,
+                            "lastActivity": "2026-02-02"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980000,
+                    "email": "christelle.atenstaedt@coutts.com",
+                    "firstName": "Christelle",
+                    "lastName": "Atenstaedt",
+                    "predictedRole": "UI Dev.",
+                    "tenure": 587,
+                    "uid": "8186277.0",
+                    "consolidatedLogins": [
+                        "christelle.atenstaedt",
+                        "christelle.atenstaedt@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978724,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 1978964,
+                            "lastActivity": "2026-01-30"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980002,
+                    "email": "anil.chauhan@coutts.com",
+                    "firstName": "Anil",
+                    "lastName": "Chauhan",
+                    "predictedRole": "UI Dev.",
+                    "tenure": 1126,
+                    "uid": "8166850.0",
+                    "consolidatedLogins": [
+                        "anil.chauhan",
+                        "anil.chauhan@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2199372,
+                            "lastActivity": "2026-01-14"
+                        },
+                        {
+                            "datasourceId": 2282267,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2331291,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2331310,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2331311,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2331312,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2331313,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2331314,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2382636,
+                            "lastActivity": "2026-01-27"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980004,
+                    "email": "guptvij@rbos.co.uk",
+                    "firstName": "Vijay",
+                    "lastName": "Gupta",
+                    "predictedRole": "UI Dev.",
+                    "tenure": 504,
+                    "uid": "8205365.0",
+                    "consolidatedLogins": [
+                        "guptvij",
+                        "guptvij@rbos.co.uk",
+                        "vijay.gupta@rbs.co.uk"
+                    ],
+                    "repositoryDetails": [],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980010,
+                    "email": "denis.belishev@coutts.com",
+                    "firstName": "Denis",
+                    "lastName": "Belishev",
+                    "predictedRole": "UI Dev.",
+                    "tenure": 716,
+                    "uid": "8193267.0",
+                    "consolidatedLogins": [
+                        "denis.belishev",
+                        "denis.belishev@coutts.com"
+                    ],
+                    "repositoryDetails": [],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980011,
+                    "email": "mohit.srivastava@natwest.com",
+                    "firstName": "Mohit",
+                    "lastName": "Srivastava",
+                    "predictedRole": "UI Dev.",
+                    "tenure": 816,
+                    "uid": "8194052.0",
+                    "consolidatedLogins": [
+                        "mohit.srivastava",
+                        "mohit.srivastava@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978724,
+                            "lastActivity": "2026-01-28"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980012,
+                    "email": "aleksandar.dukleski@coutts.com",
+                    "firstName": "Aleksandar",
+                    "lastName": "Dukleski",
+                    "predictedRole": "UI Dev.",
+                    "tenure": 1006,
+                    "uid": "8202773.0",
+                    "consolidatedLogins": [
+                        "aleksandar@backbase.com",
+                        "aleksandar.dukleski",
+                        "aleksandar.dukleski@coutts.com",
+                        "dukla@ip-192-168-0-182.eu-west-1.compute.internal"
+                    ],
+                    "repositoryDetails": [],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980013,
+                    "email": "shehu.inuwa@coutts.com",
+                    "firstName": "Shehu",
+                    "lastName": "Inuwa",
+                    "predictedRole": "UI Dev.",
+                    "tenure": 935,
+                    "uid": "8191289.0",
+                    "consolidatedLogins": [
+                        "shehu.inuwa",
+                        "shehu.inuwa@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2199372,
+                            "lastActivity": "2026-02-01"
+                        },
+                        {
+                            "datasourceId": 2331314,
+                            "lastActivity": "2026-01-30"
+                        },
+                        {
+                            "datasourceId": 2352726,
+                            "lastActivity": "2026-01-12"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980016,
+                    "email": "sailakshmi.varanasi@coutts.com",
+                    "firstName": "Sailakshmi",
+                    "lastName": "Varanasi",
+                    "predictedRole": "UI Dev.",
+                    "tenure": 1594,
+                    "uid": "8197386.0",
+                    "consolidatedLogins": [
+                        "sailakshmi.varanasi",
+                        "sailakshmi.varanasi@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978723,
+                            "lastActivity": "2026-01-22"
+                        },
+                        {
+                            "datasourceId": 1978724,
+                            "lastActivity": "2026-02-02"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980017,
+                    "email": "rohit.kumar2@natwest.com",
+                    "firstName": "Rohit",
+                    "lastName": "Kumar",
+                    "predictedRole": "UI Dev.",
+                    "tenure": 1070,
+                    "uid": "8193712",
+                    "consolidatedLogins": [
+                        "rohitkumar",
+                        "rohit.kumar2@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978724,
+                            "lastActivity": "2026-01-14"
+                        },
+                        {
+                            "datasourceId": 2199372,
+                            "lastActivity": "2026-01-30"
+                        },
+                        {
+                            "datasourceId": 2331314,
+                            "lastActivity": "2026-02-02"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980018,
+                    "email": "vinay.kamra.",
+                    "firstName": "vinay.kamra",
+                    "lastName": null,
+                    "predictedRole": null,
+                    "tenure": 36,
+                    "uid": null,
+                    "consolidatedLogins": [
+                        "vinay.kamra."
+                    ],
+                    "repositoryDetails": [],
+                    "activitySources": [
+                        "Commit"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980019,
+                    "email": "adrian.strahan@coutts.com",
+                    "firstName": "Adrian",
+                    "lastName": "Strahan",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 1271,
+                    "uid": "8146207.0",
+                    "consolidatedLogins": [
+                        "adrian.strahan",
+                        "adrian.strahan@coutts.com"
+                    ],
+                    "repositoryDetails": [],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980020,
+                    "email": "gaurav.vig@natwest.com",
+                    "firstName": "Gaurav",
+                    "lastName": "Vig",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 841,
+                    "uid": "8192833.0",
+                    "consolidatedLogins": [
+                        "gaurav.vig",
+                        "gaurav.vig@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 1979073,
+                            "lastActivity": "2026-01-29"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980021,
+                    "email": "devanshu.saini@natwest.com",
+                    "firstName": "Devanshu",
+                    "lastName": "Saini",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 857,
+                    "uid": "8192445.0",
+                    "consolidatedLogins": [
+                        "devanshu.saini",
+                        "devanshu.saini@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-29"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980023,
+                    "email": "anshul.solanki@coutts.com",
+                    "firstName": "Anshul",
+                    "lastName": "Solanki",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 901,
+                    "uid": "8191095.0",
+                    "consolidatedLogins": [
+                        "anshul.solanki",
+                        "anshul.solanki@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-31"
+                        },
+                        {
+                            "datasourceId": 1978728,
+                            "lastActivity": "2026-02-02"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980026,
+                    "email": "florence.wigens@coutts.com",
+                    "firstName": "Florence",
+                    "lastName": "Wigens",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 554,
+                    "uid": "8186750.0",
+                    "consolidatedLogins": [
+                        "florence.wigens",
+                        "florence.wigens@coutts.com"
+                    ],
+                    "repositoryDetails": [],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980027,
+                    "email": "rohit.patil@coutts.com",
+                    "firstName": "Rohit",
+                    "lastName": "Patil",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 1117,
+                    "uid": "8164430.0",
+                    "consolidatedLogins": [
+                        "rohit.patil",
+                        "rohit.patil@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-28"
+                        },
+                        {
+                            "datasourceId": 1978726,
+                            "lastActivity": "2026-01-26"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980028,
+                    "email": "manojpratap.singhrana@natwest.com",
+                    "firstName": "Manoj",
+                    "lastName": "Pratap Singh Rana",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 795,
+                    "uid": "8196435.0",
+                    "consolidatedLogins": [
+                        "manojpratap.singhrana",
+                        "manojpratap.singhrana@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2199363,
+                            "lastActivity": "2026-01-30"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980029,
+                    "email": "shivesh.dindayal@coutts.com",
+                    "firstName": "Shivesh",
+                    "lastName": "Dindayal",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 1208,
+                    "uid": "8150545.0",
+                    "consolidatedLogins": [
+                        "shivesh.dindayal",
+                        "shivesh.dindayal@coutts.com",
+                        "shivesh.dindayal@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-23"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980031,
+                    "email": "vinay.kamra@natwest.com",
+                    "firstName": "Vinay",
+                    "lastName": "kamra",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 793,
+                    "uid": "8193363.0",
+                    "consolidatedLogins": [
+                        "vinay.kamra",
+                        "vinay.kamra@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2199363,
+                            "lastActivity": "2026-01-30"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980034,
+                    "email": "mayank.pahuja@natwest.com",
+                    "firstName": "Mayank",
+                    "lastName": "Pahuja",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 868,
+                    "uid": "8192765.0",
+                    "consolidatedLogins": [
+                        "mayank.pahuja",
+                        "mayank.pahuja@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-28"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980036,
+                    "email": "amit.agrawal@coutts.com",
+                    "firstName": "Amit",
+                    "lastName": "Agrawal",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 493,
+                    "uid": "8191402.0",
+                    "consolidatedLogins": [
+                        "amit.agrawal",
+                        "amit.agrawal@coutts.com"
+                    ],
+                    "repositoryDetails": [],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980040,
+                    "email": "girish.lavekar@coutts.com",
+                    "firstName": "Girish",
+                    "lastName": "Lavekar",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 1018,
+                    "uid": "8152220.0",
+                    "consolidatedLogins": [
+                        "girish.lavekar",
+                        "girish.lavekar@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-21"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980304,
+                    "email": "ajinkya.kolkhede@coutts.com",
+                    "firstName": "Ajinkya",
+                    "lastName": "Kolkhede",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 1071,
+                    "uid": "8183361.0",
+                    "consolidatedLogins": [
+                        "ajinkya.kolkhede",
+                        "ajinkya.kolkhede@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2199362,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 2212695,
+                            "lastActivity": "2026-01-09"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2980307,
+                    "email": "anuj.sharma@coutts.com",
+                    "firstName": "Anuj",
+                    "lastName": "Sharma",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 1667,
+                    "uid": "8195933.0",
+                    "consolidatedLogins": [
+                        "anuj.sharma",
+                        "anuj.sharma@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978721,
+                            "lastActivity": "2026-01-30"
+                        },
+                        {
+                            "datasourceId": 1978942,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 1979070,
+                            "lastActivity": "2026-01-05"
+                        },
+                        {
+                            "datasourceId": 2048323,
+                            "lastActivity": "2026-01-22"
+                        },
+                        {
+                            "datasourceId": 2199362,
+                            "lastActivity": "2026-02-02"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2981349,
+                    "email": "vikrant.pawnikar@coutts.com",
+                    "firstName": "Vikrant",
+                    "lastName": "Pawnikar",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 1014,
+                    "uid": "8164746.0",
+                    "consolidatedLogins": [
+                        "pawnv",
+                        "vikrant.pawnikar@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978942,
+                            "lastActivity": "2026-01-12"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2984752,
+                    "email": "akhilesh.shivkumar@natwest.com",
+                    "firstName": "Akhilesh",
+                    "lastName": "Shivkumar",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 730,
+                    "uid": "8200166.0",
+                    "consolidatedLogins": [
+                        "akhilesh.shivkumar",
+                        "akhilesh.shivkumar@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978721,
+                            "lastActivity": "2026-01-30"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2984755,
+                    "email": "anshul.sachdeva@natwest.com",
+                    "firstName": "Anshul",
+                    "lastName": "Sachdeva",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 866,
+                    "uid": "8194735.0",
+                    "consolidatedLogins": [
+                        "anshul.sachdeva",
+                        "anshul.sachdeva@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978721,
+                            "lastActivity": "2026-02-02"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2984756,
+                    "email": "priyanka.luthra@natwest.com",
+                    "firstName": "Priyanka",
+                    "lastName": "Luthra",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 709,
+                    "uid": "8200114.0",
+                    "consolidatedLogins": [
+                        "priyanka.luthra",
+                        "priyanka.luthra@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978721,
+                            "lastActivity": "2026-01-30"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2984757,
+                    "email": "randhir.kumar@coutts.com",
+                    "firstName": "Randhir",
+                    "lastName": "Kumar",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 872,
+                    "uid": "8192724.0",
+                    "consolidatedLogins": [
+                        "randhir.kumar",
+                        "randhir.kumar@coutts.com",
+                        "randhir.kumar@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978721,
+                            "lastActivity": "2026-02-02"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2984761,
+                    "email": "rafsanjani.aziz@coutts.com",
+                    "firstName": "Rafsanjani",
+                    "lastName": "Aziz",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 894,
+                    "uid": "8191389.0",
+                    "consolidatedLogins": [
+                        "rafsanjani.aziz",
+                        "rafsanjani.aziz@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2199362,
+                            "lastActivity": "2026-02-02"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2984762,
+                    "email": "ankush.gulati@natwest.com",
+                    "firstName": "Ankush",
+                    "lastName": "Gulati",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 727,
+                    "uid": "8200035.0",
+                    "consolidatedLogins": [
+                        "ankush.gulati",
+                        "ankush.gulati@natwest.com",
+                        "ankush@ip-192-168-1-4.eu-west-1.compute.internal",
+                        "ankush@ip-192-168-1-5.eu-west-1.compute.internal",
+                        "ankush@ip-192-168-1-6.eu-west-1.compute.internal",
+                        "ankush@ip-192-168-1-8.eu-west-1.compute.internal",
+                        "ankush@ip-192-168-248-254.eu-west-1.compute.internal"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978721,
+                            "lastActivity": "2026-01-21"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2984763,
+                    "email": "prabhatkumar.gupta@natwest.com",
+                    "firstName": "Prabhat",
+                    "lastName": "Kumar Gupta",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 731,
+                    "uid": "8197263.0",
+                    "consolidatedLogins": [
+                        "prabhatkumar.gupta",
+                        "prabhatkumar.gupta@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978721,
+                            "lastActivity": "2026-02-02"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2985742,
+                    "email": "jaykumar.singh@natwest.com",
+                    "firstName": "Jay",
+                    "lastName": "Kumar Singh",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 826,
+                    "uid": "8195323.0",
+                    "consolidatedLogins": [
+                        "jaykumar.singh",
+                        "jaykumar.singh@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978964,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 1978969,
+                            "lastActivity": "2026-01-30"
+                        },
+                        {
+                            "datasourceId": 1978987,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 1979102,
+                            "lastActivity": "2026-01-20"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2985743,
+                    "email": "neeru.singhal@natwest.com",
+                    "firstName": "Neeru Singhal",
+                    "lastName": "Singhal",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 1303,
+                    "uid": "7988791",
+                    "consolidatedLogins": [
+                        "neeru.singhal@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978983,
+                            "lastActivity": "2026-01-08"
+                        },
+                        {
+                            "datasourceId": 1979102,
+                            "lastActivity": "2026-01-27"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2990536,
+                    "email": "yash.chauhan",
+                    "firstName": "Yash",
+                    "lastName": "Chauhan",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 494,
+                    "uid": "8193285.0",
+                    "consolidatedLogins": [
+                        "yash_chauhan",
+                        "yash.chauhan",
+                        "yash.chauhan@coutts.com"
+                    ],
+                    "repositoryDetails": [],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 2991410,
+                    "email": "kohlokb@ip-192-168-1-9.eu-west-1.compute.internal",
+                    "firstName": "shobhna",
+                    "lastName": "kaur kohli",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 715,
+                    "uid": "8199317.0",
+                    "consolidatedLogins": [
+                        "kohlokb@ip-192-168-1-14.eu-west-1.compute.internal",
+                        "kohlokb@ip-192-168-1-2.eu-west-1.compute.internal",
+                        "kohlokb@ip-192-168-1-3.eu-west-1.compute.internal",
+                        "kohlokb@ip-192-168-1-5.eu-west-1.compute.internal",
+                        "kohlokb@ip-192-168-1-6.eu-west-1.compute.internal",
+                        "kohlokb@ip-192-168-1-9.eu-west-1.compute.internal",
+                        "kohlokb@ip-192-168-248-18.eu-west-1.compute.internal",
+                        "kohlokb@ip-192-168-253-167.eu-west-1.compute.internal",
+                        "kohlokb@kohlokb-nn6w3rrq1h.local",
+                        "shobhnakaur.kohli",
+                        "shobhnakaur.kohli@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978965,
+                            "lastActivity": "2026-01-21"
+                        },
+                        {
+                            "datasourceId": 1978966,
+                            "lastActivity": "2026-01-28"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3120893,
+                    "email": "siddharth.dixit@natwest.com",
+                    "firstName": "Siddharth",
+                    "lastName": "Dixit",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 422,
+                    "uid": "8210646.0",
+                    "consolidatedLogins": [
+                        "siddharth.dixit",
+                        "siddharth.dixit@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978721,
+                            "lastActivity": "2026-02-02"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3142414,
+                    "email": "yashtejpal.chauhan@coutts.com",
+                    "firstName": "Yash.Chauhan",
+                    "lastName": null,
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 396,
+                    "uid": null,
+                    "consolidatedLogins": [
+                        "yashtejpal.chauhan@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2199366,
+                            "lastActivity": "2026-01-15"
+                        },
+                        {
+                            "datasourceId": 2199397,
+                            "lastActivity": "2026-01-16"
+                        },
+                        {
+                            "datasourceId": 2201587,
+                            "lastActivity": "2026-01-22"
+                        },
+                        {
+                            "datasourceId": 2204087,
+                            "lastActivity": "2026-01-26"
+                        },
+                        {
+                            "datasourceId": 2207118,
+                            "lastActivity": "2026-01-30"
+                        },
+                        {
+                            "datasourceId": 2212703,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2212709,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2212710,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2219717,
+                            "lastActivity": "2026-01-07"
+                        },
+                        {
+                            "datasourceId": 2219720,
+                            "lastActivity": "2026-01-26"
+                        },
+                        {
+                            "datasourceId": 2227607,
+                            "lastActivity": "2026-01-27"
+                        },
+                        {
+                            "datasourceId": 2276451,
+                            "lastActivity": "2026-01-30"
+                        },
+                        {
+                            "datasourceId": 2291972,
+                            "lastActivity": "2026-01-30"
+                        },
+                        {
+                            "datasourceId": 2315426,
+                            "lastActivity": "2026-01-27"
+                        },
+                        {
+                            "datasourceId": 2315448,
+                            "lastActivity": "2026-01-27"
+                        },
+                        {
+                            "datasourceId": 2331289,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 2331305,
+                            "lastActivity": "2026-01-20"
+                        },
+                        {
+                            "datasourceId": 2352718,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 2370656,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 2370680,
+                            "lastActivity": "2026-01-28"
+                        },
+                        {
+                            "datasourceId": 2370712,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2370713,
+                            "lastActivity": "2026-01-28"
+                        },
+                        {
+                            "datasourceId": 2370714,
+                            "lastActivity": "2026-01-20"
+                        },
+                        {
+                            "datasourceId": 2370715,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2370723,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2370730,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2370749,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 2370751,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 2370753,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 2370754,
+                            "lastActivity": "2026-01-27"
+                        },
+                        {
+                            "datasourceId": 2370755,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2370756,
+                            "lastActivity": "2026-01-27"
+                        },
+                        {
+                            "datasourceId": 2371034,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2371122,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 2382870,
+                            "lastActivity": "2026-01-30"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3152937,
+                    "email": "pushpa.m@natwest.com",
+                    "firstName": "Pushpa",
+                    "lastName": "M",
+                    "predictedRole": "UI Dev.",
+                    "tenure": 377,
+                    "uid": "8210980.0",
+                    "consolidatedLogins": [
+                        "pushpa.m",
+                        "pushpa.m@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978724,
+                            "lastActivity": "2026-02-02"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3257259,
+                    "email": "ankit.juneja@natwest.com",
+                    "firstName": "Ankit",
+                    "lastName": "Juneja",
+                    "predictedRole": "UI Dev.",
+                    "tenure": 335,
+                    "uid": "8206691.0",
+                    "consolidatedLogins": [
+                        "ankit.juneja",
+                        "ankit.juneja@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978724,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 1978963,
+                            "lastActivity": "2026-01-27"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3258499,
+                    "email": "nandkishore.agarwal@coutts.com",
+                    "firstName": "Nandkishore",
+                    "lastName": "Agarwal",
+                    "predictedRole": "Unclassified/VeryLowCommitActivity",
+                    "tenure": 295,
+                    "uid": "8210000.0",
+                    "consolidatedLogins": [
+                        "nandkishore.agarwal",
+                        "nandkishore.agarwal@coutts.com"
+                    ],
+                    "repositoryDetails": [],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3266842,
+                    "email": "dimple.singhvi@natwest.com",
+                    "firstName": "Dimple",
+                    "lastName": "Singhvi",
+                    "predictedRole": "UI Dev.",
+                    "tenure": 329,
+                    "uid": "8206654.0",
+                    "consolidatedLogins": [
+                        "dimple.singhvi",
+                        "dimple.singhvi@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978724,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 1978963,
+                            "lastActivity": "2026-02-02"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3285146,
+                    "email": "christopher.wunsch@coutts.com",
+                    "firstName": "Chris",
+                    "lastName": "W",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 319,
+                    "uid": "christopher.wunsch@coutts.com",
+                    "consolidatedLogins": [
+                        "christopher.wunsch",
+                        "christopher.wunsch@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-27"
+                        },
+                        {
+                            "datasourceId": 1978726,
+                            "lastActivity": "2026-01-30"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3293418,
+                    "email": "sajith.narayanareddy@natwest.com",
+                    "firstName": "Sajith",
+                    "lastName": "Narayanareddy",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 308,
+                    "uid": "8214578.0",
+                    "consolidatedLogins": [
+                        "sajith.narayanareddy",
+                        "sajith.narayanareddy@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978964,
+                            "lastActivity": "2026-01-28"
+                        },
+                        {
+                            "datasourceId": 1978986,
+                            "lastActivity": "2026-01-28"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3293532,
+                    "email": "yogenderkumar.garg@natwest.com",
+                    "firstName": "Yogender",
+                    "lastName": "Kumar Garg",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 181,
+                    "uid": "8203334.0",
+                    "consolidatedLogins": [
+                        "yogenderkumar.garg",
+                        "yogenderkumar.garg@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2199363,
+                            "lastActivity": "2026-01-30"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3311485,
+                    "email": "ramakrishna.rajidi@natwest.com",
+                    "firstName": "Ramakrishna",
+                    "lastName": "Rajidi",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 2266,
+                    "uid": "8064802.0",
+                    "consolidatedLogins": [
+                        "rajirna",
+                        "ramakrishna.rajidi@natwest.com",
+                        "ramakrishna.rajidi@rbs.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2287622,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2288379,
+                            "lastActivity": "2026-01-14"
+                        },
+                        {
+                            "datasourceId": 2290891,
+                            "lastActivity": "2026-01-30"
+                        },
+                        {
+                            "datasourceId": 2290902,
+                            "lastActivity": "2026-01-27"
+                        },
+                        {
+                            "datasourceId": 2292479,
+                            "lastActivity": "2026-01-30"
+                        },
+                        {
+                            "datasourceId": 2292480,
+                            "lastActivity": "2026-01-21"
+                        },
+                        {
+                            "datasourceId": 2292749,
+                            "lastActivity": "2026-01-27"
+                        },
+                        {
+                            "datasourceId": 2295349,
+                            "lastActivity": "2026-01-23"
+                        },
+                        {
+                            "datasourceId": 2352827,
+                            "lastActivity": "2026-01-28"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3314292,
+                    "email": "muhammad.nadeem@coutts.com",
+                    "firstName": "Muhammad",
+                    "lastName": "Nadeem",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 279,
+                    "uid": "8215569.0",
+                    "consolidatedLogins": [
+                        "muhammad.nadeem",
+                        "muhammad.nadeem@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978721,
+                            "lastActivity": "2026-01-30"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3315195,
+                    "email": "prayash.gupta@natwest.com",
+                    "firstName": "Prayash",
+                    "lastName": "Gupta",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 282,
+                    "uid": "8206924.0",
+                    "consolidatedLogins": [
+                        "guptaprayash10@gmail.com",
+                        "prayash.gupta",
+                        "prayash.gupta@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978727,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 1978731,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 1978732,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 1978733,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 1978734,
+                            "lastActivity": "2026-01-13"
+                        },
+                        {
+                            "datasourceId": 1978735,
+                            "lastActivity": "2026-01-13"
+                        },
+                        {
+                            "datasourceId": 1978736,
+                            "lastActivity": "2026-01-13"
+                        },
+                        {
+                            "datasourceId": 1978961,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 1978962,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 1978962,
+                            "lastActivity": "2026-01-28"
+                        },
+                        {
+                            "datasourceId": 1978963,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 1978963,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 1978965,
+                            "lastActivity": "2026-01-13"
+                        },
+                        {
+                            "datasourceId": 1978968,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 1978969,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 1978970,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 1978971,
+                            "lastActivity": "2026-01-13"
+                        },
+                        {
+                            "datasourceId": 1978972,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 1978973,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 1978974,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 1978975,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 1978976,
+                            "lastActivity": "2026-01-13"
+                        },
+                        {
+                            "datasourceId": 1978977,
+                            "lastActivity": "2026-01-13"
+                        },
+                        {
+                            "datasourceId": 1978978,
+                            "lastActivity": "2026-01-13"
+                        },
+                        {
+                            "datasourceId": 1978979,
+                            "lastActivity": "2026-01-13"
+                        },
+                        {
+                            "datasourceId": 1978980,
+                            "lastActivity": "2026-01-13"
+                        },
+                        {
+                            "datasourceId": 1978981,
+                            "lastActivity": "2026-01-13"
+                        },
+                        {
+                            "datasourceId": 1978982,
+                            "lastActivity": "2026-01-13"
+                        },
+                        {
+                            "datasourceId": 1978983,
+                            "lastActivity": "2026-01-13"
+                        },
+                        {
+                            "datasourceId": 1978985,
+                            "lastActivity": "2026-01-13"
+                        },
+                        {
+                            "datasourceId": 1978986,
+                            "lastActivity": "2026-01-30"
+                        },
+                        {
+                            "datasourceId": 1978987,
+                            "lastActivity": "2026-01-13"
+                        },
+                        {
+                            "datasourceId": 1978988,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 1978989,
+                            "lastActivity": "2026-01-09"
+                        },
+                        {
+                            "datasourceId": 1978990,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 1979076,
+                            "lastActivity": "2026-01-13"
+                        },
+                        {
+                            "datasourceId": 1979101,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 1979102,
+                            "lastActivity": "2026-01-29"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3322641,
+                    "email": "shashikiran.nr@natwest.com",
+                    "firstName": "Shashikiran",
+                    "lastName": "N R",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 267,
+                    "uid": "8216127.0",
+                    "consolidatedLogins": [
+                        "shashikiran.nr@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2199362,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 2212695,
+                            "lastActivity": "2026-01-12"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3322790,
+                    "email": "suma.mr@natwest.com",
+                    "firstName": "Suma",
+                    "lastName": "MR",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 298,
+                    "uid": "8214569.0",
+                    "consolidatedLogins": [
+                        "suma.mr",
+                        "suma.mr@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2219717,
+                            "lastActivity": "2026-01-27"
+                        },
+                        {
+                            "datasourceId": 2227607,
+                            "lastActivity": "2026-01-27"
+                        },
+                        {
+                            "datasourceId": 2291972,
+                            "lastActivity": "2026-01-28"
+                        },
+                        {
+                            "datasourceId": 2331289,
+                            "lastActivity": "2026-01-27"
+                        },
+                        {
+                            "datasourceId": 2370680,
+                            "lastActivity": "2026-01-30"
+                        },
+                        {
+                            "datasourceId": 2370713,
+                            "lastActivity": "2026-01-30"
+                        },
+                        {
+                            "datasourceId": 2370723,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 2370749,
+                            "lastActivity": "2026-01-28"
+                        },
+                        {
+                            "datasourceId": 2370753,
+                            "lastActivity": "2026-01-28"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3344390,
+                    "email": "nitish.pradhan@natwest.com",
+                    "firstName": "Nitish",
+                    "lastName": "Pradhan",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 267,
+                    "uid": "8216428.0",
+                    "consolidatedLogins": [
+                        "nitish.pradhan@natwest.com",
+                        "pradiin@rbos.co.uk"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2199362,
+                            "lastActivity": "2026-01-28"
+                        },
+                        {
+                            "datasourceId": 2212695,
+                            "lastActivity": "2026-01-22"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3345049,
+                    "email": "aishveen.kaur@natwest.com",
+                    "firstName": "Aishveen",
+                    "lastName": "Kaur",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 255,
+                    "uid": "8206863.0",
+                    "consolidatedLogins": [
+                        "aishveen.kaur",
+                        "aishveen.kaur@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978969,
+                            "lastActivity": "2026-01-16"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3346169,
+                    "email": "prasannakrishna.bhagwat@natwest.com",
+                    "firstName": "Prasannakrishna",
+                    "lastName": "Bhagwat",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 269,
+                    "uid": "8216598.0",
+                    "consolidatedLogins": [
+                        "prasannakrishna.bhagwat",
+                        "prasannakrishna.bhagwat@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2201587,
+                            "lastActivity": "2026-01-20"
+                        },
+                        {
+                            "datasourceId": 2222955,
+                            "lastActivity": "2026-01-28"
+                        },
+                        {
+                            "datasourceId": 2294818,
+                            "lastActivity": "2026-01-27"
+                        },
+                        {
+                            "datasourceId": 2370656,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 2370713,
+                            "lastActivity": "2026-01-23"
+                        },
+                        {
+                            "datasourceId": 2370714,
+                            "lastActivity": "2026-01-28"
+                        },
+                        {
+                            "datasourceId": 2370750,
+                            "lastActivity": "2026-01-28"
+                        },
+                        {
+                            "datasourceId": 2370940,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2370941,
+                            "lastActivity": "2026-01-28"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3348713,
+                    "email": "shilpa.karekalnaganagoud@natwest.com",
+                    "firstName": "Shilpa",
+                    "lastName": "Karekal Naganagoud",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 260,
+                    "uid": "8216514.0",
+                    "consolidatedLogins": [
+                        "shilpa.karekalnaganagoud",
+                        "shilpa.karekalnaganagoud@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 1978726,
+                            "lastActivity": "2026-01-29"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3348714,
+                    "email": "suraj.gupta@natwest.com",
+                    "firstName": "Suraj",
+                    "lastName": "Gupta",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 259,
+                    "uid": "8216515.0",
+                    "consolidatedLogins": [
+                        "suraj.gupta",
+                        "suraj.gupta@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-28"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3348715,
+                    "email": "grzegorz.pawlowicz@natwest.com",
+                    "firstName": "Grzegorz",
+                    "lastName": "Pawlowicz",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 261,
+                    "uid": "8217041.0",
+                    "consolidatedLogins": [
+                        "grzegorz.pawlowicz",
+                        "grzegorz.pawlowicz@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-29"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3348734,
+                    "email": "sebastian.mamak@natwest.com",
+                    "firstName": "Sebastian",
+                    "lastName": "Mamak",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 261,
+                    "uid": "8217038.0",
+                    "consolidatedLogins": [
+                        "sebastian.mamak",
+                        "sebastian.mamak@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978721,
+                            "lastActivity": "2026-01-30"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3348900,
+                    "email": "prikshit.chaudhary@natwest.com",
+                    "firstName": "Prikshit",
+                    "lastName": "Chaudhary",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 249,
+                    "uid": "8216665.0",
+                    "consolidatedLogins": [
+                        "prikshit.chaudhary",
+                        "prikshit.chaudhary@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2199362,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2212695,
+                            "lastActivity": "2026-01-15"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3349733,
+                    "email": "namratha.prakash@natwest.com",
+                    "firstName": "Namratha",
+                    "lastName": "Prakash",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 262,
+                    "uid": "8216512.0",
+                    "consolidatedLogins": [
+                        "namratha.prakash",
+                        "namratha.prakash@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-29"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3349734,
+                    "email": "naresh.muthuluri@natwest.com",
+                    "firstName": "Naresh",
+                    "lastName": "Muthuluri",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 251,
+                    "uid": "8216513.0",
+                    "consolidatedLogins": [
+                        "naresh.muthuluri",
+                        "naresh.muthuluri@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-23"
+                        },
+                        {
+                            "datasourceId": 1978726,
+                            "lastActivity": "2026-01-19"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3354646,
+                    "email": "yevhen.basistyi@natwest.com",
+                    "firstName": "Yevhen",
+                    "lastName": "Basistyi",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 242,
+                    "uid": "8217323.0",
+                    "consolidatedLogins": [
+                        "yevhen.basistyi",
+                        "yevhen.basistyi@natwest.com",
+                        "yevneh.basistyi@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-20"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3356280,
+                    "email": "chintan.gautam@natwest.com",
+                    "firstName": "Chintan",
+                    "lastName": "Gautam",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 239,
+                    "uid": "8150686.0",
+                    "consolidatedLogins": [
+                        "chintan.gautam@natwest.com",
+                        "gautacb"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2291075,
+                            "lastActivity": "2026-01-14"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3364001,
+                    "email": "truptimayee.sahoo@natwest.com",
+                    "firstName": "Truptimayee",
+                    "lastName": "Sahoo",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 242,
+                    "uid": "8217157.0",
+                    "consolidatedLogins": [
+                        "truptimayee.sahoo",
+                        "truptimayee.sahoo@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-31"
+                        },
+                        {
+                            "datasourceId": 1979073,
+                            "lastActivity": "2026-01-31"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3364753,
+                    "email": "pranjal.bikashdas@natwest.com",
+                    "firstName": "Pranjal",
+                    "lastName": "Bikash Das",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 238,
+                    "uid": "8217374.0",
+                    "consolidatedLogins": [
+                        "pranjal.bikashdas",
+                        "pranjal.bikashdas@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-27"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3364766,
+                    "email": "aswathnarayana.mahesh@natwest.com",
+                    "firstName": "Aswathnarayana",
+                    "lastName": "Mahesh",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 252,
+                    "uid": "8216947.0",
+                    "consolidatedLogins": [
+                        "aswathnarayana.mahesh@natwest.com",
+                        "mahewas"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2199363,
+                            "lastActivity": "2026-01-30"
+                        },
+                        {
+                            "datasourceId": 2212695,
+                            "lastActivity": "2026-01-30"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3375741,
+                    "email": "rajkumar.mahalingam@natwest.com",
+                    "firstName": "RAJKUMAR",
+                    "lastName": "MAHALINGAM",
+                    "predictedRole": null,
+                    "tenure": 173,
+                    "uid": "8217054.0",
+                    "consolidatedLogins": [
+                        "rajkumar.mahalingam",
+                        "rajkumar.mahalingam@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-27"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3381420,
+                    "email": "amol.jagtap@coutts.com",
+                    "firstName": "Amol",
+                    "lastName": "Jagtap",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 224,
+                    "uid": "8216676.0",
+                    "consolidatedLogins": [
+                        "amol.jagtap",
+                        "amol.jagtap@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2199363,
+                            "lastActivity": "2026-01-30"
+                        },
+                        {
+                            "datasourceId": 2212695,
+                            "lastActivity": "2026-01-26"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3382273,
+                    "email": "hamza.bartanwala@coutts.com",
+                    "firstName": "Hamza",
+                    "lastName": "Bartanwala",
+                    "predictedRole": "DevOps / System Admin",
+                    "tenure": 230,
+                    "uid": "8216487.0",
+                    "consolidatedLogins": [
+                        "hamza.bartanwala",
+                        "hamza.bartanwala@coutts.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2181739,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2181743,
+                            "lastActivity": "2026-01-21"
+                        },
+                        {
+                            "datasourceId": 2204087,
+                            "lastActivity": "2026-01-21"
+                        },
+                        {
+                            "datasourceId": 2207122,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2212710,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2227607,
+                            "lastActivity": "2025-12-22"
+                        },
+                        {
+                            "datasourceId": 2276451,
+                            "lastActivity": "2026-01-16"
+                        },
+                        {
+                            "datasourceId": 2291972,
+                            "lastActivity": "2026-01-23"
+                        },
+                        {
+                            "datasourceId": 2331305,
+                            "lastActivity": "2026-01-30"
+                        },
+                        {
+                            "datasourceId": 2352837,
+                            "lastActivity": "2026-01-29"
+                        },
+                        {
+                            "datasourceId": 2370680,
+                            "lastActivity": "2025-12-22"
+                        },
+                        {
+                            "datasourceId": 2370712,
+                            "lastActivity": "2026-01-23"
+                        },
+                        {
+                            "datasourceId": 2370714,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 2370715,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 2370750,
+                            "lastActivity": "2026-01-12"
+                        },
+                        {
+                            "datasourceId": 2370755,
+                            "lastActivity": "2026-01-19"
+                        },
+                        {
+                            "datasourceId": 2382896,
+                            "lastActivity": "2026-01-16"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3406061,
+                    "email": "dansteve.adekanbi@coutts.com",
+                    "firstName": "Dansteve",
+                    "lastName": "Adekanbi",
+                    "predictedRole": null,
+                    "tenure": 79,
+                    "uid": "8218529.0",
+                    "consolidatedLogins": [
+                        "dansteve.adekanbi",
+                        "dansteve.adekanbi@coutts.com"
+                    ],
+                    "repositoryDetails": [],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3430036,
+                    "email": "arslanahmad@coutts.com",
+                    "firstName": "Arslan",
+                    "lastName": "Ahmad",
+                    "predictedRole": null,
+                    "tenure": 106,
+                    "uid": "8218292.0",
+                    "consolidatedLogins": [
+                        "arslan.ahmad",
+                        "arslan.ahmad@coutts.com",
+                        "arslanahmad@coutts.com"
+                    ],
+                    "repositoryDetails": [],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3430294,
+                    "email": "pramod.sharma@natwest.com",
+                    "firstName": "Pramod",
+                    "lastName": "Sharma",
+                    "predictedRole": null,
+                    "tenure": 125,
+                    "uid": "8217995.0",
+                    "consolidatedLogins": [
+                        "pramod.sharma",
+                        "pramod.sharma@natwest.com"
+                    ],
+                    "repositoryDetails": [],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3430338,
+                    "email": "ashish.kulshreshtha@natwest.com",
+                    "firstName": "Ashish",
+                    "lastName": "Kulshreshtha",
+                    "predictedRole": "Android Dev.",
+                    "tenure": 206,
+                    "uid": "8216056.0",
+                    "consolidatedLogins": [
+                        "ashish.kulshreshtha",
+                        "ashish.kulshreshtha@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 2199362,
+                            "lastActivity": "2026-02-02"
+                        },
+                        {
+                            "datasourceId": 2212695,
+                            "lastActivity": "2026-01-29"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3444589,
+                    "email": "satishshivram.sondge@natwest.com",
+                    "firstName": "Satish",
+                    "lastName": "Shivram Sondge",
+                    "predictedRole": "iOS/Mac Dev.",
+                    "tenure": 190,
+                    "uid": "8217899.0",
+                    "consolidatedLogins": [
+                        "satishshivram.sondge",
+                        "satishshivram.sondge@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978725,
+                            "lastActivity": "2026-01-29"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3466851,
+                    "email": "hannah.magee@natwest.com",
+                    "firstName": "Hannah Magee",
+                    "lastName": "Magee",
+                    "predictedRole": "Core Backend Dev.",
+                    "tenure": 328,
+                    "uid": "8203184",
+                    "consolidatedLogins": [
+                        "hannah.magee",
+                        "hannah.magee@natwest.com"
+                    ],
+                    "repositoryDetails": [
+                        {
+                            "datasourceId": 1978986,
+                            "lastActivity": "2026-01-28"
+                        }
+                    ],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                },
+                {
+                    "developerId": 3494240,
+                    "email": "lucy.meredith@natwest.com",
+                    "firstName": "Lucy",
+                    "lastName": "Meredith",
+                    "predictedRole": null,
+                    "tenure": 51,
+                    "uid": "8195044.0",
+                    "consolidatedLogins": [
+                        "lucy.meredith",
+                        "lucy.meredith@natwest.com"
+                    ],
+                    "repositoryDetails": [],
+                    "activitySources": [
+                        "Commit",
+                        "PR"
+                    ],
+                    "isActive": true
+                }
+            ],
+            "activitySourcesByTeam": [
+                "PR",
+                "Commit"
+            ],
+            "hasMissingActivitySources": true
+        }
+    ],
+    "hasPr": true,
+    "hasTaskTracker": false
+}

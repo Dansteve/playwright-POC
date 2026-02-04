@@ -1,0 +1,205 @@
+{
+    "metaData": {
+        "page": 1,
+        "perPage": 10,
+        "pageCount": 10,
+        "totalCount": 92
+    },
+    "metrics": [
+        {
+            "developerId": 2977595,
+            "employeeCountry": "IN",
+            "employeeTimeZone": null,
+            "dailyBillableCE": 3.8933,
+            "aberrantBillableCE": 8.5446,
+            "totalCE": 31.1467,
+            "dailyCommitFrequency": 1.4,
+            "totalCommits": 34,
+            "repositoriesContributed": 4,
+            "excludedCommits": 9,
+            "includedCommits": 25,
+            "lastActivityDate": "2026-01-30",
+            "taskExecution": [
+                {
+                    "workItemType": "Unattributed CE",
+                    "workItemCount": null,
+                    "totalCEHours": 31.1467,
+                    "averageCEHours": 31.1467
+                }
+            ],
+            "taskCount": 0
+        },
+        {
+            "developerId": 2979995,
+            "employeeCountry": "GB",
+            "employeeTimeZone": null,
+            "dailyBillableCE": 0.8953,
+            "aberrantBillableCE": 8.1808,
+            "totalCE": 8.0574,
+            "dailyCommitFrequency": 2.0,
+            "totalCommits": 12,
+            "repositoriesContributed": 1,
+            "excludedCommits": 7,
+            "includedCommits": 5,
+            "lastActivityDate": "2026-02-02",
+            "taskExecution": [
+                {
+                    "workItemType": "Unattributed CE",
+                    "workItemCount": null,
+                    "totalCEHours": 8.0574,
+                    "averageCEHours": 8.0574
+                }
+            ],
+            "taskCount": 0
+        },
+        {
+            "developerId": 2980019,
+            "employeeCountry": "GB",
+            "employeeTimeZone": null,
+            "dailyBillableCE": null,
+            "aberrantBillableCE": null,
+            "totalCE": null,
+            "dailyCommitFrequency": null,
+            "totalCommits": null,
+            "repositoriesContributed": null,
+            "excludedCommits": null,
+            "includedCommits": null,
+            "lastActivityDate": "2025-05-02",
+            "taskExecution": [],
+            "taskCount": null
+        },
+        {
+            "developerId": 3345049,
+            "employeeCountry": "IN",
+            "employeeTimeZone": null,
+            "dailyBillableCE": null,
+            "aberrantBillableCE": null,
+            "totalCE": null,
+            "dailyCommitFrequency": null,
+            "totalCommits": null,
+            "repositoriesContributed": null,
+            "excludedCommits": null,
+            "includedCommits": null,
+            "lastActivityDate": "2026-01-16",
+            "taskExecution": [],
+            "taskCount": null
+        },
+        {
+            "developerId": 2980304,
+            "employeeCountry": "GB",
+            "employeeTimeZone": null,
+            "dailyBillableCE": 5.0,
+            "aberrantBillableCE": 8.3334,
+            "totalCE": 91.4431,
+            "dailyCommitFrequency": 1.0,
+            "totalCommits": 72,
+            "repositoriesContributed": 1,
+            "excludedCommits": 34,
+            "includedCommits": 38,
+            "lastActivityDate": "2026-01-28",
+            "taskExecution": [
+                {
+                    "workItemType": "Unattributed CE",
+                    "workItemCount": null,
+                    "totalCEHours": 91.4431,
+                    "averageCEHours": 91.4431
+                }
+            ],
+            "taskCount": 0
+        },
+        {
+            "developerId": 2984752,
+            "employeeCountry": "IN",
+            "employeeTimeZone": null,
+            "dailyBillableCE": 5.0,
+            "aberrantBillableCE": 9.2254,
+            "totalCE": 110.0833,
+            "dailyCommitFrequency": 2.3333,
+            "totalCommits": 20,
+            "repositoriesContributed": 1,
+            "excludedCommits": 10,
+            "includedCommits": 10,
+            "lastActivityDate": "2026-02-02",
+            "taskExecution": [
+                {
+                    "workItemType": "Unattributed CE",
+                    "workItemCount": null,
+                    "totalCEHours": 110.0833,
+                    "averageCEHours": 110.0833
+                }
+            ],
+            "taskCount": 0
+        },
+        {
+            "developerId": 2980012,
+            "employeeCountry": "GB",
+            "employeeTimeZone": null,
+            "dailyBillableCE": null,
+            "aberrantBillableCE": null,
+            "totalCE": null,
+            "dailyCommitFrequency": null,
+            "totalCommits": null,
+            "repositoriesContributed": null,
+            "excludedCommits": null,
+            "includedCommits": null,
+            "lastActivityDate": "2025-11-26",
+            "taskExecution": [],
+            "taskCount": null
+        },
+        {
+            "developerId": 2980036,
+            "employeeCountry": "GB",
+            "employeeTimeZone": null,
+            "dailyBillableCE": null,
+            "aberrantBillableCE": null,
+            "totalCE": null,
+            "dailyCommitFrequency": null,
+            "totalCommits": null,
+            "repositoriesContributed": null,
+            "excludedCommits": null,
+            "includedCommits": null,
+            "lastActivityDate": "2025-02-27",
+            "taskExecution": [],
+            "taskCount": null
+        },
+        {
+            "developerId": 3381420,
+            "employeeCountry": "GB",
+            "employeeTimeZone": null,
+            "dailyBillableCE": 5.0,
+            "aberrantBillableCE": 8.079,
+            "totalCE": 22.2719,
+            "dailyCommitFrequency": 3.0,
+            "totalCommits": 13,
+            "repositoriesContributed": 2,
+            "excludedCommits": 8,
+            "includedCommits": 5,
+            "lastActivityDate": "2026-01-26",
+            "taskExecution": [
+                {
+                    "workItemType": "Unattributed CE",
+                    "workItemCount": null,
+                    "totalCEHours": 22.2719,
+                    "averageCEHours": 22.2719
+                }
+            ],
+            "taskCount": 0
+        },
+        {
+            "developerId": 2980002,
+            "employeeCountry": "GB",
+            "employeeTimeZone": null,
+            "dailyBillableCE": null,
+            "aberrantBillableCE": null,
+            "totalCE": null,
+            "dailyCommitFrequency": null,
+            "totalCommits": 12,
+            "repositoriesContributed": null,
+            "excludedCommits": 12,
+            "includedCommits": 0,
+            "lastActivityDate": "2026-01-30",
+            "taskExecution": [],
+            "taskCount": null
+        }
+    ]
+}

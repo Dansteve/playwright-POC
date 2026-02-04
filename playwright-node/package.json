@@ -1,0 +1,22 @@
+{
+  "name": "natwest-data-extraction",
+  "version": "1.0.0",
+  "description": "Standalone data extraction for BlueOptima",
+  "main": "run-login.ts",
+  "scripts": {
+    "start": "npx ts-node run-login.ts",
+    "demo": "DEMO=true npx ts-node run-login.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.49.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2"
+  }
+}

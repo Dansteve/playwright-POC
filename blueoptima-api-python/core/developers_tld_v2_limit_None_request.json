@@ -1,0 +1,17 @@
+{
+    "method": "POST",
+    "url": "https://uix.blueoptima.com/api/v2/tld/developers",
+    "headers": {
+        "x-request-from": "UIX",
+        "x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxODNkN2IzOS04NWMzLTRjZmItYjExMi1kYjA5Yzk2ZjU4MTYifQ.eyJleHAiOjE3NzAxMzEyNjUsImlhdCI6MTc3MDEzMDY2NSwiYXV0aF90aW1lIjoxNzcwMTMwNjY0LCJqdGkiOiIyMmNjZjk2ZC00NTI4LTRiZjItOWZmMC01Njc5ZWJiNmMyODIiLCJpc3MiOiJodHRwczovL2tleWNsb2FrLXByb2QuYm8ubG9jYWwvcmVhbG1zL2VudC01MTUiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiZTE3ZmNjMTgtNzk3My00MzNkLTgxZTUtZTNiODFiOGM1MWYyIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYXBwX2JsdWVvcHRpbWEiLCJzZXNzaW9uX3N0YXRlIjoiNTU0ZjdiYzYtMDhhZC00ZmU4LTgwZDgtZWUxZmRmNDkwNmRjIiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtZW50LTUxNSIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwic2lkIjoiNTU0ZjdiYzYtMDhhZC00ZmU4LTgwZDgtZWUxZmRmNDkwNmRjIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJkYW5zdGV2ZS5hZGVrYW5iaUBjb3V0dHMuY29tIiwiZW1haWwiOiJkYW5zdGV2ZS5hZGVrYW5iaUBjb3V0dHMuY29tIn0.xRCYIhS6o_h8pwES_NTXfm4wpziEgowIc3G0tKPILow",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://uix.blueoptima.com/uix/compass",
+        "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "traceparent": "00-9ad5351fb43f33549e915b6ffbd29373-d86d16474c0c19a0-01",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json;charset=UTF-8"
+    },
+    "postData": "{\"limit\":null,\"offset\":0}"
+}

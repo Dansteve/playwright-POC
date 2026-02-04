@@ -1,0 +1,16 @@
+{
+    "method": "POST",
+    "url": "https://uix.blueoptima.com/api/v1/tld/compass/execution/developers",
+    "headers": {
+        "0": "[object Object]",
+        "1": "[object Object]",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://uix.blueoptima.com/uix/compass",
+        "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "traceparent": "00-09204b41f1fd914f7e1af9f5b6b9fb54-6aef34ec5d42d3e7-01",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+    },
+    "postData": null
+}
