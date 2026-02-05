@@ -7,6 +7,7 @@ from datetime import datetime
 sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
 
 from src.client import BlueOptimaClient
+from src.auth import BlueOptimaAuth
 
 DATA_DIR = "data"
 

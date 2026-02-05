@@ -10,14 +10,14 @@ class BlueOptimaClient:
     def _get(self, endpoint, params=None):
         url = f"{self.BASE_URL}{endpoint}"
         headers = self.auth.get_headers()
-        response = requests.get(url, headers=headers, params=params)
+        response = self.auth.session.get(url, headers=headers, params=params)
         response.raise_for_status()
         return response.json()
 
     def _post(self, endpoint, json_data=None):
         url = f"{self.BASE_URL}{endpoint}"
         headers = self.auth.get_headers()
-        response = requests.post(url, headers=headers, json=json_data)
+        response = self.auth.session.post(url, headers=headers, json=json_data)
         response.raise_for_status()
         return response.json()
 
