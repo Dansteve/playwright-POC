@@ -28,7 +28,7 @@ def extract_params_from_payload(payload_str):
     try:
         data = json.loads(payload_str)
         params = []
-        for key in ["limit", "startDate", "endDate", "teamId"]:
+        for key in ["limit", "startDate", "endDate", "teamId", "offset"]:
             if key in data:
                 params.append(f"{key}_{data[key]}")
         return "_" + "_".join(params) if params else ""
@@ -110,13 +110,6 @@ def handle_response(response):
     name = get_base_name(url, response.request.post_data)
     folder_date = datetime.now().strftime("%Y-%m-%d")
 
-    # Capture headers for manual fetch (X-Auth-Token, etc.)
-    req_headers = response.request.headers
-    if any(k.lower() in ["x-auth-token", "authorization"] for k in req_headers) or "api/v2/tld/developers" in url:
-        global CAPTURED_HEADERS
-        CAPTURED_HEADERS.update(req_headers)
-        print(f"!!! Updated captured headers from: {url}")
-
     if "api/" in url:
         is_targeted = "target" if name else "extra"
         print(f"Network Intercepted ({is_targeted}): {url} (Status: {response.status})")
@@ -135,52 +128,42 @@ def handle_response(response):
         else:
             print(f"SKIPPED: {url} (Status: {response.status})")
 
-def run_manual_fetch(page):
-    if not CAPTURED_HEADERS:
-        print("CRITICAL: No headers captured. Manual fetch blocked.")
+def run_pagination(page):
+    print("\n--- Starting Pagination Capture ---")
+    
+    # Wait for the table/pagination to be visible
+    next_button_selector = '[data-qa="uix-tld-compass-execution-developer-table-next"]'
+    try:
+        page.wait_for_selector(next_button_selector, timeout=30000)
+    except Exception as e:
+        print(f"Pagination button not found: {e}")
         return
 
-    print("\n--- Triggering Browser-Native Fetch for Compass (Limit 7000) ---")
-    
-    folder_date = datetime.now().strftime("%Y-%m-%d")
-    payload = {
-        "limit": COMPASS_FETCH_LIMIT,
-        "startDate": folder_date,
-        "endDate": folder_date,
-        "teamId": None
-    }
-    
-    filtered_headers = {k: v for k, v in CAPTURED_HEADERS.items() 
-                       if k.lower() not in ['content-length', 'host', 'connection']}
-    
-    js_fetch = """
-    async (headers, payload) => {
-        try {
-            const url = "https://uix.blueoptima.com/api/v1/tld/compass/execution/developers";
-            console.log(`Native fetch to: ${url}`);
+    page_num = 1
+    while True:
+        print(f"Captured Page {page_num}. Looking for Next button...")
+        
+        next_button = page.locator(next_button_selector)
+        
+        # Check if button is disabled or hidden
+        is_visible = next_button.is_visible()
+        # Some UIs mark it disabled via class or attribute
+        is_disabled = "pagination-item--disabled" in (next_button.get_attribute("class") or "") or not next_button.is_enabled()
+        
+        if not is_visible or is_disabled:
+            print("Next button not available or disabled. Pagination complete.")
+            break
             
-            const response = await fetch(url, {
-                method: 'POST',
-                headers: {
-                    ...headers,
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(payload),
-                credentials: 'include'
-            });
-            return { ok: response.ok, status: response.status, url: url };
-        } catch (e) {
-            return { ok: false, error: e.message };
-        }
-    }
-    """
-    
-    try:
-        print(f"Triggering native fetch from browser context with limit {COMPASS_FETCH_LIMIT}...")
-        result = page.evaluate(js_fetch, [filtered_headers, payload])
-        print(f"Native fetch trigger result: {result}")
-    except Exception as e:
-        print(f"Failed to trigger native fetch: {e}")
+        print(f"Clicking Next for Page {page_num + 1}...")
+        next_button.click()
+        page_num += 1
+        
+        # Wait for the next network response or some UI indicator
+        time.sleep(5) 
+        
+        if page_num > 100: # Safety break
+            print("Safety break: capped at 100 pages.")
+            break
 
 def save_cookies(context, folder_date):
     print(f"Saving browser cookies for {folder_date}...")
@@ -202,12 +185,10 @@ def run():
     demo_mode = os.getenv('DEMO', 'true').lower() == 'true'
     folder_date = datetime.now().strftime("%Y-%m-%d")
 
-    print(f"--- Starting Python Data Extraction (Interception + Manual Fallback) ---")
+    print(f"--- Starting Python Data Extraction (Playwright Pagination) ---")
     print(f"User: {username}")
-    print(f"Demo Mode: {demo_mode}")
 
     with sync_playwright() as p:
-        # Note: Using the provided executable path for Chrome
         browser = p.chromium.launch(executable_path='C:\\Users\\AdekaD\\Downloads\\chrome-win64\\chrome.exe', headless=False)
         context = browser.new_context()
         page = context.new_page()
@@ -232,6 +213,12 @@ def run():
             try:
                 login_page.wait_for_login_completion()
                 print(f"Login successful. Current URL: {page.url}")
+                time.sleep(15)
+                
+                # Force navigation to Compass if not there
+                if "/uix/compass" not in page.url:
+                    print("Ensuring navigation to Compass page...")
+                    page.goto("https://uix.blueoptima.com/uix/compass")
                 
                 print("Waiting 15 seconds for initial loader on Compass page...")
                 time.sleep(15)
@@ -244,31 +231,24 @@ def run():
                     developer_trigger.first.wait_for(state="visible", timeout=30000)
                     print("Clicking 'Developer view' button...")
                     developer_trigger.first.click()
-                    print("Wait 5s for sequence...")
                     time.sleep(5)
                     
                     team_trigger.first.wait_for(state="visible", timeout=30000)
                     print("Clicking 'Team view' button...")
                     team_trigger.first.click()
-                    print("Wait 5s for sequence...")
                     time.sleep(5)
                     
                     developer_trigger.first.wait_for(state="visible", timeout=30000)
                     print("Clicking 'Developer view' button...")
                     developer_trigger.first.click()
                     
-                    print("Trigger sequence complete!")
+                    print("Wait 10s for initial data load...")
+                    time.sleep(10)
                 except Exception as click_err:
                     print(f"WARNING: Trigger sequence failed: {click_err}")
                 
-                print("Waiting 15 seconds for network capture...")
-                time.sleep(15)
-
-                # Trigger the browser-native high-limit fetch
-                run_manual_fetch(page)
-                
-                print("Waiting 10 seconds for native fetch interception...")
-                time.sleep(10)
+                # Start the pagination loop
+                run_pagination(page)
                 
                 save_cookies(context, folder_date)
                 
