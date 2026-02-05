@@ -5,7 +5,7 @@ from datetime import datetime
 from playwright.sync_api import sync_playwright
 from pages.login_page import LoginPage
 
-DATA_DIR = "data"
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 TARGET_ENDPOINTS = [
     "api/v2/developers",
     "api/v2/tld/developers",
@@ -20,6 +20,8 @@ NAME_MAPPING = {
 
 SAVED_ENDPOINTS = set()
 CAPTURED_HEADERS = {}
+CAPTURED_METADATA = {}
+SAVE_REQUESTS = os.getenv('SAVE_REQUESTS', 'false').lower() == 'true'
 COMPASS_FETCH_LIMIT = 7000
 
 def extract_params_from_payload(payload_str):
@@ -72,7 +74,11 @@ def get_base_name(url, post_data=None):
     return base_name
 
 def save_json_data(name, data, folder_date, type_suffix="responses", is_core=False):
-    if is_core:
+    # Specialized routing for paginated developer data to keep core clean
+    if name.startswith("developers_execution_compass_tld_v1"):
+        subfolder = "working"
+        filename = f"{name}_{type_suffix[:-1] if type_suffix.endswith('s') else type_suffix}.json"
+    elif is_core:
         subfolder = "core"
         filename = f"{name}_{type_suffix[:-1] if type_suffix.endswith('s') else type_suffix}.json"
     else:
@@ -97,13 +103,14 @@ def handle_request(request):
             url_path_only = url.split("?")[0]
             is_core = any(url_path_only.endswith(target) for target in TARGET_ENDPOINTS)
             
-            req_data = {
-                "method": request.method,
-                "url": url,
-                "headers": request.headers,
-                "postData": request.post_data
-            }
-            save_json_data(name, req_data, folder_date, "requests", is_core=is_core)
+            if SAVE_REQUESTS:
+                req_data = {
+                    "method": request.method,
+                    "url": url,
+                    "headers": request.headers,
+                    "postData": request.post_data
+                }
+                save_json_data(name, req_data, folder_date, "requests", is_core=is_core)
 
 def handle_response(response):
     url = response.url
@@ -121,6 +128,11 @@ def handle_response(response):
         if response.status == 200:
             try:
                 data = response.json()
+                if "metaData" in data:
+                    global CAPTURED_METADATA
+                    CAPTURED_METADATA = data["metaData"]
+                    print(f"Captured Metadata: {CAPTURED_METADATA}")
+                
                 save_json_data(name, data, folder_date, "responses", is_core=is_core)
                 SAVED_ENDPOINTS.add(name)
             except Exception as e:
@@ -140,8 +152,19 @@ def run_pagination(page):
         return
 
     page_num = 1
-    while True:
-        print(f"Captured Page {page_num}. Looking for Next button...")
+    max_pages = 999 # Fallback
+    
+    # Give a moment for the first page response to be processed by handle_response
+    time.sleep(2)
+    
+    if CAPTURED_METADATA and "totalCount" in CAPTURED_METADATA:
+        total = CAPTURED_METADATA["totalCount"]
+        per_page = CAPTURED_METADATA.get("perPage", 10)
+        max_pages = (total + per_page - 1) // per_page
+        print(f"Pagination Plan: {total} items, {per_page}/page -> {max_pages} pages.")
+
+    while page_num < max_pages:
+        print(f"Captured Page {page_num}/{max_pages}. Looking for Next button...")
         
         next_button = page.locator(next_button_selector)
         
@@ -155,15 +178,38 @@ def run_pagination(page):
             break
             
         print(f"Clicking Next for Page {page_num + 1}...")
+        
+        # Reset SAVED_ENDPOINTS for the specific target so we can wait for its refresh
+        target_name_to_wait = "developers_execution_compass_tld_v1"
+        if target_name_to_wait in SAVED_ENDPOINTS:
+            SAVED_ENDPOINTS.remove(target_name_to_wait)
+            
         next_button.click()
+        
+        # Wait for the specific response OR a reasonable timeout
+        start_wait = time.time()
+        max_wait = 30 
+        loaded = False
+        
+        while time.time() - start_wait < max_wait:
+            if target_name_to_wait in SAVED_ENDPOINTS:
+                print(f"Page {page_num + 1} data received.")
+                loaded = True
+                break
+            time.sleep(1)
+            
+        if not loaded:
+            print(f"Warning: Page {page_num + 1} data load timed out. Continuing anyway...")
+        
         page_num += 1
+        time.sleep(2) 
         
-        # Wait for the next network response or some UI indicator
-        time.sleep(5) 
-        
-        if page_num > 100: # Safety break
-            print("Safety break: capped at 100 pages.")
+        if page_num > 200: 
+            print("Safety break: capped at 200 pages.")
             break
+    
+    if page_num >= max_pages:
+        print(f"Pagination reached calculated limit ({max_pages}).")
 
 def save_cookies(context, folder_date):
     print(f"Saving browser cookies for {folder_date}...")
